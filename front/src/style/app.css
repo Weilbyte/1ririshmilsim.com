@@ -1,4 +1,109 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+#navbar-container {
+  background-color: #24292E;
+  color: white;
+  height: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Open Sans", sans-serif;
+}
+
+#navbar-container #logo-container {
+  border-bottom: 2px solid #BCBFC0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5%;
+  padding-right: 25px;
+}
+
+#navbar-container #logo-container #regiment {
+  padding-left: 3.5px;
+}
+
+#navbar-container #logo-container img {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#navbar-container #logo-container:hover {
+  opacity: 0.75;
+}
+
+#navbar-container #button-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-left: 25px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#navbar-container #button-list .button-container {
+  display: table;
+  background-color: transparent;
+  width: 100px;
+  height: 100%;
+}
+
+#navbar-container #button-list .button-container p {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+#navbar-container #button-list .button-container:hover {
+  color: white;
+  -webkit-transition: 0.123758s;
+  transition: 0.123758s;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+#navbar-container #button-list .active {
+  color: white;
+  border-bottom: 3px solid #43b581;
+}
+
+#navbar-container #filler {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#navbar-container #enlist-container {
+  height: 100%;
+  width: 200px;
+  text-align: center;
+  background-color: #43b581;
+}
+
+#navbar-container #enlist-container #enlist-text {
+  height: 100%;
+  padding-top: 15%;
+  display: block;
+  font-size: 25px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0.75;
+}
+
+#navbar-container #enlist-container #enlist-text:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  padding-left: 10px;
+  opacity: 1;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -8,6 +113,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: gray;
   min-height: 100vh;
   min-width: 100%;
