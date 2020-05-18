@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: gray;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.link {
+  color: inherit;
+  text-decoration: inherit;
+}
+/*# sourceMappingURL=app.css.map */

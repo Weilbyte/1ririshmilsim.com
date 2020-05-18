@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,qEAAI;AAGZ,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CAAG;;AAEhB,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,IAAI;EACtB,UAAU,EAAE,KAAK;EACjB,SAAS,EAAE,IAAI;CAAG;;AAEtB,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,OAAO;EACd,eAAe,EAAE,OAAO;CAAG",
+    "sources": [
+        "app.sass",
+        "_vars.sass"
+    ],
+    "names": [],
+    "file": "app.css"
+}
