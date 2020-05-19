@@ -1,0 +1,25 @@
+#tab-container
+    height: 64px
+    width: 600px
+    border-radius: 0.625rem
+    background-color: white
+    box-shadow: 0.2rem 0.2rem 0 rgba(233, 236, 239, 0.5)
+    border: 1px solid rgba(255, 255, 255, 0.80)
+    display: flex
+    .tab-button
+        display: table
+        height: 100%
+        width: 100%
+        transition: 1s
+        span
+            font-size: 18px
+            font-family: $font
+            user-select: none
+            text-align: center
+            vertical-align: middle 
+            display: table-cell
+        &:hover
+            background-color: rgba(233, 236, 239, 0.5)
+            transition: 1s
+    .active
+        background-color: rgba(233, 236, 239, 0.5)
