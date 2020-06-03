@@ -81,41 +81,49 @@ export const GearWeapons : gear[] = [
         "designation" : "L131A1",
         "name" : "Glock 17",
         "type" : "Semi-Automatic Handgun",
-        "image" : "gear/weapon/l131a1.png"
+        "image" : "gear/weapon/l131a1.png",
+        "description" : "Chambered in 9x19 Parabellum with a standard double-stacked magazine capacity of 17 rounds. This modular lightweight pistol is classed as the General Service Pistol. It is carried as a secondary weapon by British frontline troops."
     },
     {
         "designation" : "L7A2",
         "name" : "FN MAG",
         "type" : "General-Purpose Machine Gun",
-        "image" : "gear/weapon/l7a2.png"
+        "image" : "gear/weapon/l7a2.png",
+        "description" : "Short for \"Mitrailleuse d'Appui Général\", meaning \"general support machine gun\". Chambered in 7.62x51mm NATO, with a mobile box capacity of 50 to 200 rounds, and firing rate up to 1000 rounds per minute.This belt-fed machine gun is classed as the General Purpose Machine Gun - primarily carried by British autoriflemen to provide both direct and suppressive fire. The weight of the L7A2, accompanied by carried ammunition, makes the handling of the machine gun a semi-distributed duty in an infantry squad."
     },
     {
         "designation" : "L129A1",
         "name" : "LM308MWS",
         "type" : "Semi-Automatic Rifle",
-        "image" : "gear/weapon/l129a1.png"
+        "image" : "gear/weapon/l129a1.png",
+        "description" : "Designed by LMT. Based on the SR-25 and the AR-10. Chambered in 7.62x51mm NATO, with a standard magazine capacity of 20 rounds, and primarily fitted with a 6x optic: the Trijicon ACOG TA648-RMR-UKS. This american rifle is carried by British marksmen designed to give infantry squads the ability to engage mid-long range targets - firing accurately up to 800 meters. The weight of the L129A1, in comparison to other return-fire effective weapons, makes the rifle suitable as a patrolling soldier's weapon."
     },
     {
         "designation" : "L115A3",
         "name" : "AWM",
         "type" : "Bolt-Action Sniper Rifle",
-        "image" : "gear/weapon/l115a3.png"
+        "image" : "gear/weapon/l115a3.png",
+        "description" : "Short for \"Arctic Warfare Magnum\". Chambered in .338 Lapua Magnum, with a standard capacity of 5 rounds, and primarily fitted with a 5-25x optic, the Schmidt & Bender 5-25x56 PM, at day and accompanied by a thermal imaging optic at night, the Sniper Thermal Imaging Capability optic. This high-precision bolt-action sniper rifle is carried by British snipers designed to engage long-range targets from positions of concealment or at distances exceeding the target's peripheral vision. The L115A3 is capable of firing effectively up to 1500 meters. The weight and stationary nature of the L115A3 makes the handling of the sniper rifle a two-individual distributed duty. "
     },
     {
         "designation" : "L128A1",
-        "name" : "Benelli M4",
+        "name" : "Benelli M4 Super 90",
         "type" : "Semi-Automatic Shotgun",
-        "image" : "gear/weapon/l128a1.png"
+        "image" : "gear/weapon/l128a1.png",
+        "description" : "Chambered in 12 gauge, with a standard tube-magazine capacity of 7 shells, and primarily fitted with a Eotech 552 holographic sight. This semi-automatic combat shotgun is generally carried by the British pointman. The L128A1 is particulary useful when engaged in close quarter battle - including urban environments and dense vegetation - with an effective firing range of 50 meters."
     },
     {
-        "designation" : "L2A1",
-        "name" : "ILAW",
+        "designation" : "L2A1 ILAW",
+        "name" : "AT4",
         "type" : "Unguided Anti-Armour Rocket Launcher",
-        "image" : "gear/weapon/l2a1.png"
+        "image" : "gear/weapon/l2a1.png",
+        "description" : "Adopted and designated as the L2A1 ILAW. Compatible with HEAT, HEDP 502, HP, AST, ER, and HE projectiles. This single-use multi-purpose unguided anti-tank rocket launcher is carried by British light anti-tank specialists designed to primarily engage, immobilize, and eliminate both armoured and non-armoured vehicle targets, firing effectively up to 300 meters - 600 meters via Extended Range projectiles. The L2A1 ILAW is effective against bunkers, fox holes, buildings, and urban environments - often used to create entry holes through walls. The L2A1 ILAW is also effective at engaging multiple ground targets at once via HE and HEDP 502 projectiles."
     },
     {
-        "name" : "Javelin",
+        "designation" : "Javelin",
+        "name" : "FGM-148 Javelin",
         "type" : "Anti-Tank Guided Weapon",
-        "image" : "gear/weapon/javelin.png"
+        "image" : "gear/weapon/javelin.png",
+        "description" : "Compatible with HEAT warhead missiles. This american man-portable anti-tank missile launcher is carried by British heavy anti-tank specialists designed to primarily eliminate both armoured and non-armoured vehicle targets. The Javelin utilizes a 'fire-and-forget' system, relying entirely on the fired missile's automatic infrared guidance to eliminate the pre-launch locked-on target - firing effectively up to 2500 meters. The Javelin provides two modes: a top-attack flight profile against armoured vehicles, and a direct-attack mode for use against buildings and targets under obstruction. The Javelin's direct-attack mode also has the ability to engage helicopters within the detection-range. The weight and stationary nature of the Javelin makes the handling of the launcher a two-individual distributed duty."
     }
 ];
