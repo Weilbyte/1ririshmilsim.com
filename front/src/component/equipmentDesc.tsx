@@ -12,16 +12,16 @@ export class EquipmentDesc extends Component<equipmentDescProps, {}> {
 
     render() {
         if (this.props.gear === undefined) return ''
-
         const title = (this.props.gear.designation == null) ? this.props.gear.name : this.props.gear.designation;
-        const undertitle = (this.props.gear.designation == null) ? '' : this.props.gear.name;
+        const undertitle = (this.props.gear.designation == null) ? this.props.gear.type : this.props.gear.name;
+        const type = (undertitle == this.props.gear.type) ? '' : this.props.gear.type;
         const image = require(`../image/${this.props.gear.image}`)
         return (
             <div className='tab-desc-container'>
                 <img src={image} />
                 <div id='inner'>
                     <span id='title'>{title}</span><br/>
-                    <span id='undertitle'>{undertitle}</span><span id='type'>{this.props.gear.type}</span><br/><br/>
+                    <span id='undertitle'>{undertitle}</span><span id='type'>{type}</span><br/><br/>
                     <div id='description'>{this.props.gear.description}</div>
                 </div>
             </div>
