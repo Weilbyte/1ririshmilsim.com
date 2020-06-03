@@ -10,22 +10,26 @@ export const GearUniforms : gear[] = [
     {
         "name" : "Infantry",
         "type" : "Combat",
-        "image" : "gear/uniform/infantry_combat.png"
+        "image" : "gear/uniform/infantry_combat.png",
+        "description" : "Standard issue combat outfit. Colors adapted to current terrain."
     },
     {
         "name" : "Infantry",
         "type" : "Patrol",
-        "image" : "gear/uniform/infantry_patrol.png"
+        "image" : "gear/uniform/infantry_patrol.png",
+        "description" : "Outfit worn by soldiers thats used on patrol. Colors adapted to current terrain."
     }, 
     {
         "name" : "Special",
         "type" : "Ghillie",
-        "image" : "gear/uniform/special_ghillie.png"
+        "image" : "gear/uniform/special_ghillie.png",
+        "description" : "Camouflaged outfit worn by snipers so that they can't be easily detected."
     },
     {
         "name" : "Special",
         "type" : "Pilot",
-        "image" : "gear/uniform/special_pilot.png"
+        "image" : "gear/uniform/special_pilot.png",
+        "description" : "This outfit is worn exclusively by pilots. Colors adapted to current terrain."
     }
 ];
 
