@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 
-const logo = require('../image/logo.png')
+const logo = require('../image/rirlogo.png')
 
 export class Navbar extends Component<{}> {
 
@@ -22,7 +22,7 @@ export class Navbar extends Component<{}> {
       return (
           <div id='navbar-container'>
             <div id='logo-container'>
-                <img alt='Royal Irish Regiment Logo' src={logo} height='95px'/>
+                <img alt='Royal Irish Regiment Logo' src={logo} height='85px'/>
                 <h2><b>Royal&nbsp;Irish<br/><div id='regiment'>Regiment</div></b></h2>
             </div>
             <div id='button-list'>

@@ -6,14 +6,18 @@
 @import './_equipmentTab.sass';
 @import './_equipmentItem.sass';
 @import './_equipmentDesc.sass';
+@import './_pageEnlist.sass';
+@import './_enlistForm.sass';
 
 body
     padding: 0
     margin: 0
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar 
+        display: none;
 
 .App 
     min-height: 100vh
-    min-width: 100%
     display: flex
     flex-direction: column
     background-color: gray
