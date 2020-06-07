@@ -6,24 +6,29 @@
 @import './_equipmentTab.sass';
 @import './_equipmentItem.sass';
 @import './_equipmentDesc.sass';
+@import './_textSection.sass';
+@import './_imgSection.sass';
 @import './_pageEnlist.sass';
 @import './_enlistForm.sass';
+@import './_pageGuidelines.sass';
+@import './_pageHome.sass';
+@import './_footer.sass';
 
 body
     padding: 0
+    min-height: 100vh
+    width: 100%
     margin: 0
     -ms-overflow-style: none;
     &::-webkit-scrollbar 
         display: none;
 
 .App 
-    min-height: 100vh
     display: flex
     flex-direction: column
     background-color: gray
 
-
 .link
     color: inherit;
-    text-decoration: inherit;
+    text-decoration: inherit !important;
 
