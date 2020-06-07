@@ -10,7 +10,7 @@ export class HomePage extends Component {
     render() {     
       return (
           <div id='page-outer'>
-              <div id='home-inner'>
+              <div id='page-nopad-inner'>
                     <ImgSection id='img-top' text='Royal Irish Regiment' />
                     <TextSection title={'WHO.'} text={whoText} />
                     <ImgSection id='img-mid' />
