@@ -13,9 +13,10 @@ export class Navbar extends Component<{}> {
     }
   
     Button(to: string, text: string) {
-        return <NavLink activeClassName='active' className='link button-container' to={to}>
-            <p>{text}</p>
-        </NavLink>;
+      if (to.includes('http')) return <a href={to} target="_blank" rel="noopener noreferrer" className='link button-container'><p>{text}</p></a>
+      return <NavLink activeClassName='active' className='link button-container' to={to}>
+      <p>{text}</p>
+  </NavLink>;
     }
 
     render() {
@@ -26,11 +27,10 @@ export class Navbar extends Component<{}> {
                 <h2><b>Royal&nbsp;Irish<br/><div id='regiment'>Regiment</div></b></h2>
             </div>
             <div id='button-list'>
-                    {this.Button('about', 'ABOUT')}
+                    {this.Button('home', 'HOME')}
                     {this.Button('equipment', 'EQUIPMENT')}
-                    {this.Button('faq', 'FAQ')}
-                    {this.Button('orbat', 'ORBAT')}
-                    {this.Button('rules', 'RULES')}
+                    {this.Button('https://docs.google.com/spreadsheets/d/1rxwK7os-nZB5Lrksq1P9X9YYy-g_KQv5C5siRF1AF_8', 'ORBAT')}
+                    {this.Button('guidelines', 'GUIDELINES')}
             </div>
             <div id='filler'/>
             <NavLink className='link enlist-button' to={'enlist'}>
