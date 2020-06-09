@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 //@ts-ignore
 import { MetaTags } from 'react-meta-tags';
-import { BrowserView, MobileView } from 'react-device-detect';
 import { Navbar } from './component/navbar';
 import { NavbarMobile } from './component/navbarMobile';
 
