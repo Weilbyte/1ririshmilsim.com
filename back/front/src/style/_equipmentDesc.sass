@@ -6,9 +6,9 @@
     opacity: 0.75
     transition: 0.5s
     img 
-        height: 300px
+        height: auto
+        max-width: 100%
         border-radius: inherit
-        width: 100%
     #inner
         padding-left: 25px
         padding-top: 10px
@@ -23,4 +23,24 @@
         #description
             padding-right: 25px
             padding-bottom: 25px
-            
+
+
+@media screen and (max-width: 1366px)
+    .tab-desc-container
+        width: 512px
+        img 
+            height: auto 
+              
+@media screen and (max-width: $tablet)
+    .tab-desc-container
+        margin-top: 20px
+        margin-left: 0px
+        width: 100%
+
+@media screen and (max-width: $small) 
+    .tab-desc-container 
+        margin-top: 20px
+        margin-left: 0px
+        width: 100%
+        img 
+            height: auto

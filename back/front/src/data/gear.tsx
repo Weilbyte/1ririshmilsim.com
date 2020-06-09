@@ -91,7 +91,7 @@ export const GearWeapons : gear[] = [
     {
         "designation" : "L7A2",
         "name" : "FN MAG",
-        "type" : "General-Purpose Machine Gun",
+        "type" : "General-Purpose MG",
         "image" : "gear/weapon/l7a2.png",
         "description" : "Short for \"Mitrailleuse d'Appui Général\", meaning \"general support machine gun\". Chambered in 7.62x51mm NATO, with a mobile box capacity of 50 to 200 rounds, and firing rate up to 1000 rounds per minute.This belt-fed machine gun is classed as the General Purpose Machine Gun - primarily carried by British autoriflemen to provide both direct and suppressive fire. The weight of the L7A2, accompanied by carried ammunition, makes the handling of the machine gun a semi-distributed duty in an infantry squad."
     },
@@ -111,7 +111,7 @@ export const GearWeapons : gear[] = [
     },
     {
         "designation" : "L128A1",
-        "name" : "Benelli M4 Super 90",
+        "name" : "Benelli M4",
         "type" : "Semi-Automatic Shotgun",
         "image" : "gear/weapon/l128a1.png",
         "description" : "Chambered in 12 gauge, with a standard tube-magazine capacity of 7 shells, and primarily fitted with a Eotech 552 holographic sight. This semi-automatic combat shotgun is generally carried by the British pointman. The L128A1 is particulary useful when engaged in close quarter battle - including urban environments and dense vegetation - with an effective firing range of 50 meters."
@@ -119,14 +119,14 @@ export const GearWeapons : gear[] = [
     {
         "designation" : "L2A1 ILAW",
         "name" : "AT4",
-        "type" : "Unguided Anti-Armour Rocket Launcher",
+        "type" : "Unguided AT Weapon",
         "image" : "gear/weapon/l2a1.png",
         "description" : "Adopted and designated as the L2A1 ILAW. Compatible with HEAT, HEDP 502, HP, AST, ER, and HE projectiles. This single-use multi-purpose unguided anti-tank rocket launcher is carried by British light anti-tank specialists designed to primarily engage, immobilize, and eliminate both armoured and non-armoured vehicle targets, firing effectively up to 300 meters - 600 meters via Extended Range projectiles. The L2A1 ILAW is effective against bunkers, fox holes, buildings, and urban environments - often used to create entry holes through walls. The L2A1 ILAW is also effective at engaging multiple ground targets at once via HE and HEDP 502 projectiles."
     },
     {
         "designation" : "Javelin",
         "name" : "FGM-148 Javelin",
-        "type" : "Anti-Tank Guided Weapon",
+        "type" : "Guided AT Weapon",
         "image" : "gear/weapon/javelin.png",
         "description" : "Compatible with HEAT warhead missiles. This american man-portable anti-tank missile launcher is carried by British heavy anti-tank specialists designed to primarily eliminate both armoured and non-armoured vehicle targets. The Javelin utilizes a 'fire-and-forget' system, relying entirely on the fired missile's automatic infrared guidance to eliminate the pre-launch locked-on target - firing effectively up to 2500 meters. The Javelin provides two modes: a top-attack flight profile against armoured vehicles, and a direct-attack mode for use against buildings and targets under obstruction. The Javelin's direct-attack mode also has the ability to engage helicopters within the detection-range. The weight and stationary nature of the Javelin makes the handling of the launcher a two-individual distributed duty."
     }

@@ -1,0 +1,64 @@
+#navbar-mob-container
+    display: flex 
+    flex-direction: column
+    #top
+        height: 64px
+        display: flex 
+        flex-direction: row
+        background-color: #24292E
+        #logo-container
+            display: flex
+            width: 135px
+            margin-left: 20px
+            margin-top: 2px
+            border-bottom: 2px solid #BCBFC0
+            #regiment
+                padding-left: 2.5px
+            h2
+                color: white
+                margin-top: 15px
+                margin-left: 15px
+                font-weight: 300
+                font-size: 15px
+            &:hover
+                opacity: 0.75
+        #filler
+            flex-grow: 1
+        #drop-button
+            width: 30px
+            margin-top: auto 
+            margin-bottom: auto
+            margin-right: 25px
+            padding-top: 4.5px
+            padding-left: 7.5px
+            height: 30px
+            border-radius: 0.256rem
+            display: flex
+            background-color: white
+            color: #24292E
+        #button-list
+            display: none
+    #bot-collap
+        background-color: none
+        color: white
+        position: fixed 
+        top: 64px
+        left: 999px
+        width: 100%
+        z-index: 9
+        transition: left 0.4s ease-out
+        .button-container
+            #button-container-inner
+                background-color: #24292E
+                opacity: 0.95
+                height: 32px
+                #button-text
+                    font-family: $font
+                    color: white
+                    span 
+                        font-weight: 200
+                        margin-left: 20px
+        .active
+            #button-container-inner
+                #button-text  
+                    border-left: 2px solid $green
