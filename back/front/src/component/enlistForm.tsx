@@ -247,7 +247,8 @@ export class EnlistForm extends Component<{}, enlistFormState> {
                         ref={this.state.captchaRef}
                         size='invisible'
                         onVerify={this.submit}
-                        sitekey={'6LedHgAVAAAAAH_1ED_FVIXzUQ7M4mFOwyfyl8aU'}
+                        //@ts-ignore
+                        sitekey={process.env.REACT_APP_SITEKEY}
                     />
                     <p id='fine' className='lighter'>* By submitting the form, you agree to follow our guidelines and acknolwedge that this is a serious unit</p>
                   </Form>
