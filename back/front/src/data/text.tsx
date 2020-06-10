@@ -67,7 +67,7 @@ export const howText : string =
 `
 Everything we do is thanks to our amazing members that take time out of their day to play and contribute to our community. 
 <br/><br/>
-We have a roster sporting plenty of members from a variety of different backgrounds and different taste in anime. If you are looking for a community to call your own, then we may be able to suit your needs.
+We have a roster sporting plenty of members from a variety of different backgrounds and cultures. If you are looking for a community to call your own, then we may be able to suit your needs.
 <br/><br/>
 Joining us is simple but first we require that you are at minimum 13 years old (exceptions can be made) and own a legal copy of ArmA 3. Once we have that out the way, you can fill out our application form by clicking the green enlist button at the top or following <a href="#/enlist">this link</a>. 
 <br/>
