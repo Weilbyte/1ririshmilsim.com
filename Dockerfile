@@ -6,9 +6,9 @@ COPY ./back /srv/back
 
 WORKDIR /srv/back 
 
-RUN npm install -g typescript && yarn install && yarn build && yarn install --production && yarn cache clean
+RUN npm install -g typescript && yarn install && yarn build && yarn install --production && yarn cache clean && rm *.ts 
 
-RUN cd /srv/back/front && yarn install && REACT_APP_SITEKEY=${SITEKEY} yarn build && yarn install --production && yarn cache clean
+RUN cd /srv/back/front && yarn install && REACT_APP_SITEKEY=${SITEKEY} yarn build && yarn install --production && yarn cache clean && rm -rf node_modules/ && rm -rf src/
 
 EXPOSE 9000/tcp
 
