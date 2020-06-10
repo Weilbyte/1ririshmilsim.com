@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { TextSection } from '../component/textSection';
 import { ImgSection } from '../component/imgSection';
-import { whoText } from '../data/text';
+import { whoText, whenText, howText } from '../data/text';
  
 export class HomePage extends Component {
 
@@ -14,9 +14,9 @@ export class HomePage extends Component {
                     <ImgSection id='img-top' text='Royal Irish Regiment' />
                     <TextSection title={'WHO.'} text={whoText} />
                     <ImgSection id='img-mid' />
-                    <TextSection title={'WHEN.'} text={''} />
+                    <TextSection title={'WHEN.'} text={whenText} />
                     <ImgSection id='img-bot' />
-                    <TextSection title={'HOW.'} text={''} />
+                    <TextSection title={'HOW.'} text={howText} />
               </div>
           </div>
       )
