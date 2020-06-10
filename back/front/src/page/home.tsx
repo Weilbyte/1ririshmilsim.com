@@ -12,11 +12,11 @@ export class HomePage extends Component {
           <div id='page-outer'>
               <div id='page-nopad-inner'>
                     <ImgSection id='img-top' text='Royal Irish Regiment' />
-                    <TextSection title={'WHO.'} text={whoText} />
+                    <TextSection title={'WHO'} text={whoText} />
                     <ImgSection id='img-mid' />
-                    <TextSection title={'WHEN.'} text={whenText} />
+                    <TextSection title={'WHEN'} text={whenText} />
                     <ImgSection id='img-bot' />
-                    <TextSection title={'HOW.'} text={howText} />
+                    <TextSection title={'HOW'} text={howText} />
               </div>
           </div>
       )

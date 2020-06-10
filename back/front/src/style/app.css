@@ -26,6 +26,10 @@
   padding-right: 25px;
 }
 
+#navbar-container #logo-container h2 {
+  margin-top: 10px;
+}
+
 #navbar-container #logo-container #regiment {
   padding-left: 3.5px;
 }

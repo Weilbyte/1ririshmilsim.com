@@ -38,11 +38,11 @@ export class NavbarMobile extends Component<{}, navbarMobileState> {
         this.setState({
             menuExpanded: !this.state.menuExpanded
         });
-    }
+    };
   
     Button(to: string, text: string) {
         if (to.includes('http')) return (
-        <a href={to} target="_blank" rel="noopener noreferrer" className='link button-container'>
+        <a href={to} target="_blank" rel="noopener noreferrer" className='link button-container' onClick={this.handleMenu}>
             <div id='button-container-inner'>
                 <div id='button-light' />
                 <div id='button-text'>
@@ -52,7 +52,7 @@ export class NavbarMobile extends Component<{}, navbarMobileState> {
         </a> 
         )
         return ( 
-            <NavLink activeClassName='active' className='link button-container' to={to}>
+            <NavLink activeClassName='active' className='link button-container' to={to} onClick={this.handleMenu}>
                 <div id='button-container-inner'>
                     <div id='button-light' />
                     <div id='button-text'>
