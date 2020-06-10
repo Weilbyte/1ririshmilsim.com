@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 //@ts-ignore
 import { MetaTags } from 'react-meta-tags';
+import { ConsoleText } from './component/consoleText';
 import { Navbar } from './component/navbar';
 import { NavbarMobile } from './component/navbarMobile';
 
@@ -28,6 +29,8 @@ function App() {
 
   return (
     <div className='App'>
+      <ConsoleText />
+      
       <MetaTags>
         <title>Royal Irish Regiment</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'/>
