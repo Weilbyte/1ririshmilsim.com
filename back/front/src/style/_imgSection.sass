@@ -1,0 +1,48 @@
+.image-parallax
+    height: 256px
+    background-attachment: fixed 
+    filter: blur(0.5px)
+    background-position: center 
+    background-repeat: no-repeat
+    background-size: cover
+    display: flex 
+    justify-content: center
+    align-items: center
+    h1 
+        color: white
+        text-align: center
+        font-weight: 700
+        background-color: #24292E
+        font-size: 80px
+        opacity: 0.80
+        padding: 7.5px
+        user-select: none
+    
+#img-top
+    height: 640px
+    background-image: url(../image/home/0.png)
+
+#img-mid
+    background-image: url(../image/home/1.png)
+
+#img-bot
+    background-image: url(../image/home/2.png)
+
+@media screen and (max-width: $tablet)
+    .image-parallax
+        h1 
+            font-size: 70px
+    #img-top
+        background-position-x: -170px
+    #img-bot
+        background-position-x: -235px
+
+@media screen and (max-width: $small) 
+    .image-parallax
+        h1 
+            font-size: 30px
+    #img-top
+        height: 460px
+        background-position-x: -200px
+    #img-bot 
+        background-position-x: -235px

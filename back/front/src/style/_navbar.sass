@@ -1,0 +1,67 @@
+#navbar-container 
+    background-color: #24292E
+    color: white
+    height: 96px
+    display: flex
+    user-select: none
+    flex-direction: row 
+    font-family: $font
+    #logo-container 
+        border-bottom: 2px solid #BCBFC0
+        display: flex 
+        margin-left: 5%
+        #regiment
+            padding-left: 3.5px
+        img 
+            margin-top: auto
+            margin-bottom: auto
+        &:hover
+            opacity: 0.75
+        padding-right: 25px
+    #button-list
+        display: flex 
+        height: 100%
+        width: 100vw
+        padding-left: 25px
+        color: rgba(255, 255, 255, 0.60)
+        .button-container
+            display: table
+            background-color: transparent
+            width: 100px
+            height: 100%
+            transition: 0.123758s
+            p 
+                text-align: center
+                vertical-align: middle 
+                display: table-cell
+            &:hover
+                color: white
+                transition: 0.123758s
+                transform: scale(1.02)
+        .active 
+            color: white
+            border-bottom: 3px solid $green
+
+    #filler
+        flex-grow: 1
+    #enlist-container
+        height: 100%
+        width: 200px
+        text-align: center
+        background-color: $green
+        #enlist-text
+            height: 100%
+            padding-top: 15%
+            display: block
+            font-size: 25px
+            transition: 1s
+            opacity: 0.75
+            &:hover
+                transition: 1s
+                padding-left: 10px
+                opacity: 1
+            
+
+
+                
+                

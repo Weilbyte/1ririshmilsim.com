@@ -1,0 +1,46 @@
+.tab-desc-container
+    margin-left: 25px
+    width: 800px
+    background-color: rgba(255, 255, 255, 1)
+    border-radius: 0.625rem
+    opacity: 0.75
+    transition: 0.5s
+    img 
+        height: auto
+        max-width: 100%
+        border-radius: inherit
+    #inner
+        padding-left: 25px
+        padding-top: 10px
+        #title
+            font-size: 23.5px
+            font-weight: 700
+        #undertitle,#type
+            opacity: 0.75
+        #type
+            float: right 
+            padding-right: 25px
+        #description
+            padding-right: 25px
+            padding-bottom: 25px
+
+
+@media screen and (max-width: 1366px)
+    .tab-desc-container
+        width: 512px
+        img 
+            height: auto 
+              
+@media screen and (max-width: $tablet)
+    .tab-desc-container
+        margin-top: 20px
+        margin-left: 0px
+        width: 100%
+
+@media screen and (max-width: $small) 
+    .tab-desc-container 
+        margin-top: 20px
+        margin-left: 0px
+        width: 100%
+        img 
+            height: auto

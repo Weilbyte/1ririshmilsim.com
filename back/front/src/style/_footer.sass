@@ -1,0 +1,28 @@
+#footer-outer
+    height: 64px
+    color: white 
+    font-family: $font
+    background-color: #24292E
+    padding: 20px 125px
+    #footer-inner
+        br
+            display: none
+        #right
+            float: right 
+            text-decoration: underline
+            
+@media screen and (max-width: $tablet)
+    #footer-outer
+        padding: 20px 30px
+
+
+@media screen and (max-width: $small) 
+    #footer-outer
+        padding: 10px 10px
+        #footer-inner
+            br 
+                display: block
+            #right 
+                float: none
+            text-align: center
+            font-size: 15px
