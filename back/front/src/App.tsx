@@ -27,10 +27,14 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className='App'>
       <MetaTags>
         <title>Royal Irish Regiment</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name='viewport' content='width=device-width, initial-scale=1'/>
+        <meta property='og:title' content='Royal Irish Regiment' />
+        <meta property='og:type' content='website' />
+        <meta property='og:url' content='https://1ririshmilsim.com' />
+        <meta property='og:description' content='Royal Irish Regiment - Arma 3 Milsim Unit' />
       </MetaTags>
 
       {getNavbar()}
