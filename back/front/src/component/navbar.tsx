@@ -7,10 +7,6 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 const logo = require('../image/rirlogo.png')
 
 export class Navbar extends Component<{}> {
-
-    componentDidMount() {
-      console.log("Navbar mounted")
-    }
   
     Button(to: string, text: string) {
       if (to.includes('http')) return <a href={to} target="_blank" rel="noopener noreferrer" className='link button-container'><p>{text}</p></a>

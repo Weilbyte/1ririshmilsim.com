@@ -23,10 +23,6 @@ export class NavbarMobile extends Component<{}, navbarMobileState> {
         this.handleMenu = this.handleMenu.bind(this);
     }
 
-    componentDidMount() {
-      console.log("Mobile navbar mounted")
-    }
-
     handleMenu() {
         var bot = document.getElementById('bot-collap');
         if (bot == null) return;
